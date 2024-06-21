@@ -1,0 +1,7 @@
+<button (click)="callApi()">Call Api</button>
+
+<div style="display: flex; flex-direction: column">
+  @for (item of response(); track $index) {
+  <div>{{ $index + 1 }}: {{ item }}</div>
+  }
+</div>
