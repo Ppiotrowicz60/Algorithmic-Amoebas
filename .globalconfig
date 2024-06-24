@@ -1,0 +1,8 @@
+is_global = true
+global_level = 10
+
+dotnet_diagnostic.CS8019.severity = error
+dotnet_diagnostic.IDE0005.severity = warning
+dotnet_diagnostic.IDE0044.severity = error
+dotnet_diagnostic.CA1822.severity = warning
+dotnet_diagnostic.IDE0051.severity = warning
